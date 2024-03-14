@@ -36,6 +36,20 @@ to check the status of the container run
 
 This will show all the containers.
 
+Now is the time to push this image on DockerHub
+
+``` docker tag first_image prachisingh/my_first_docker_image:0.0.1 ```
+
+This will give tag to the image that is to be uploaded hub.
+
+``` docker tag first_image prachisingh/my_first_docker_image:0.0.1 ```
+``` docker push my_first_docker_image ```
+
+This will upload your image on DockerHub resistry for everyone to see.
+
+And finally our [dockerhub image](https://hub.docker.com/r/manic5647/my_first_repo) :&#127881; &#x1F389;:
+
+
 
 
 
